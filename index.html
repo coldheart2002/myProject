@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+    <title>Sassy</title>
+  </head>
+  <body>
+    <nav>
+      <div class="leftNav">
+        <span class="material-symbols-outlined leftNavIcon"> face </span>
+      </div>
+      <div class="rightNav">
+        <ul>
+          <li class="rightNavIconContainer">
+            <span class="material-symbols-outlined rightNavIcon" id="homeIcon">
+              home
+            </span>
+            <div class="toolTip">home</div>
+          </li>
+          <li class="rightNavIconContainer">
+            <span
+              class="material-symbols-outlined rightNavIcon"
+              id="contactsIcon"
+            >
+              contacts
+            </span>
+            <div class="toolTip">contacts</div>
+          </li>
+          <li class="rightNavIconContainer">
+            <span
+              class="material-symbols-outlined rightNavIcon"
+              id="settingsIcon"
+            >
+              settings
+            </span>
+            <div class="toolTip">settings</div>
+          </li>
+          <li class="rightNavIconContainer">
+            <span
+              class="material-symbols-outlined rightNavIcon"
+              id="experimentIcon"
+            >
+              experiment
+            </span>
+            <div class="toolTip">experiment</div>
+          </li>
+          <li class="rightNavIconContainer">
+            <span
+              class="material-symbols-outlined rightNavIcon"
+              id="logoutIcon"
+            >
+              logout
+            </span>
+            <div class="toolTip">logout</div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="contents">
+      <div class="contentContainer" id="homeContainer">
+        <h1>Home</h1>
+      </div>
+      <div class="contentContainer" id="contactsContainer">
+        <h1>Contacts</h1>
+      </div>
+      <div class="contentContainer" id="settingsContainer">
+        <h1>settings</h1>
+      </div>
+
+      <div class="contentContainer" id="experimentContainer">
+        <h1>Experiment</h1>
+        <div class="btnContainer">
+          <button class="submit">submit</button>
+          <button class="cancel">cancel</button>
+          <button class="return">return</button>
+        </div>
+      </div>
+      <div class="contentContainer" id="logoutContainer">
+        <h1>Logout</h1>
+      </div>
+    </div>
+
+    <script src="/src/scripts/content.js"></script>
+    <script src="/src/scripts/nav.js"></script>
+  </body>
+</html>
